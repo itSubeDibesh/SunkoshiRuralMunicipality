@@ -4,10 +4,10 @@ $news = new News_Event();
 $news_info = $news->getNewsEventsByType('news'); ?>
 <section class="section-footer">
   <div class="container">
-  <div class="w-header-a">
-        <h3 class="w-title-a text-brand">सुनkoshi feels heaven in earth</h3>
-      </div>
-      <br>
+    <div class="w-header-a">
+      <h3 class="w-title-a text-brand">सुनkoshi feels heaven in earth</h3>
+    </div>
+    <br>
     <div class="row">
       <div class="col-md-6 col-lg-4 col-12">
         <img style="width:100%;" src="<?php echo UPLOAD_URL . '/web/' . $webInfo[0]->Image; ?>">
@@ -22,12 +22,12 @@ $news_info = $news->getNewsEventsByType('news'); ?>
       <div class="w-footer-a col-12">
         <ul class="list-unstyled">
           <li class="color-a">
-            <span class="color-text-a">Phone :</span> 9861315234,9813570528</li>
+            <span class="color-text-a">Phone :</span> <a href="tel:+9779861315234">+977-9861315234</a></li>
           <li class="color-a">
-            <span class="color-text-a">Email :</span> <a href="mailto:kingraj530@gmail.com">kingraj530@gmail.com</a>
+            <span class="color-text-a">Email :</span> <a href="mailto:master@codeappstore.com">master@codeappstore.com</a>
           </li>
           <li class="color-a">
-            <span class="color-text-a">CC :</span> <a href="mailto:rohanpuri325@gmail.com">rohanpuri325@gmail.com</a>
+            <span class="color-text-a">CC :</span> <a href="mailto:authserviceprovider@gmail.com">authserviceprovider@gmail.com</a>
           </li>
         </ul>
       </div>
@@ -88,16 +88,16 @@ $news_info = $news->getNewsEventsByType('news'); ?>
               </a>
             </li>
             <li class="list-inline-item">
-                <a href="https://twitter.com/sunkoshimun">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
+              <a href="https://twitter.com/sunkoshimun">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
         </div>
         <div class="copyright-footer">
           <p class="copyright color-text-a">
             &copy; Copyright
-            <span class="color-a">2019 Sunkoshi rular minucapility</span> All Rights Reserved. <p class="color-a">Created By <a href="mailto:kingraj530@gmail.com">Dibesh Raj Subedi</a></p>
+            <span class="color-a">2019 Sunkoshi rular minucapility</span> All Rights Reserved. <p class="color-a">Created By <a href="https://codeappstore.com" target="_blank">CodeAppStore</a></p>
           </p>
         </div>
       </div>
